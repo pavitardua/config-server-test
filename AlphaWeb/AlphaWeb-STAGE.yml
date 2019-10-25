@@ -1,0 +1,48 @@
+server:
+  port: "9000"
+  session:
+    timeout: 60m
+  tomcat:
+    remote_ip_header: x-forwarded-for
+    protocol_header: x-forwarded-proto
+envName: STAGE
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  jpa:
+    properties:
+      hibernate:
+        current_session_context_class: org.springframework.orm.hibernate4.SpringSessionContext
+        dialect: com.alpha.hibernate/SQLiteDialect.java
+    hibernate:
+      ddl-auto: update
+logging:
+  level:
+    org:
+      springframework:
+        web: ERROR
+        security: ERROR
+cust:
+  var:
+    contactLookupAddr: http://staticComboServer.coachspan.internal:9006/
+    contentLookupAddr: http://staticComboServer.coachspan.internal:9010/api/v1/
+    designLookupAddr: http://staticComboServer.coachspan.internal:9008/
+    divisionAddr: http://divisionServer.coachspan.internal:9004/
+    leagueAddr: http://smallServiceComboServer.coachspan.internal:9009/
+    seasonAddr: http://seasonServer.coachspan.internal:9005/
+    orgAddr: http://smallServiceComboServer.coachspan.internal:9007/
+    personAddr: http://personServer.coachspan.internal:9002/
+    trainingAddr: http://trainingServer.coachspan.internal:9011/
+    programAddr: http://programandregistration.coachspan.internal:9012/api/v1
+    coachRegistrationAddr: http://programandregistration.coachspan.internal:9013/api/v1
+    mockApiAddr: http://5ce3f6fce7bf4100144c69b1.mockapi.io/v1
+    utilityService: http://programandregistration.coachspan.internal:9999/api/v1
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+security:
+  require-ssl: "true"
