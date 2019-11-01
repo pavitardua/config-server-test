@@ -1,0 +1,48 @@
+cust:
+  var:
+    coachRegistrationAddr: http://programandregistration.staging.coachspan.internal:9013/api/v1
+    contactLookupAddr: http://staticComboServer.staging.coachspan.internal:9006/
+    contentLookupAddr: http://staticComboServer.staging.coachspan.internal:9010/api/v1/
+    designLookupAddr: http://staticComboServer.staging.coachspan.internal:9008/
+    divisionAddr: http://divisionServer.staging.coachspan.internal:9004/
+    leagueAddr: http://smallServiceComboServer.staging.coachspan.internal:9009/
+    mockApiAddr: http://5ce3f6fce7bf4100144c69b1.mockapi.io/v1
+    orgAddr: http://smallServiceComboServer.staging.coachspan.internal:9007/
+    personAddr: http://personServer.staging.coachspan.internal:9002/
+    programAddr: http://programandregistration.staging.coachspan.internal:9012/api/v1
+    seasonAddr: http://seasonServer.staging.coachspan.internal:9005/
+    trainingAddr: http://trainingServer.staging.coachspan.internal:9011/
+    utilityService: http://programandregistration.staging.coachspan.internal:9999/api/v1
+envName: STAGE
+logging:
+  level:
+    org:
+      springframework:
+        security: ERROR
+        web: ERROR
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+security:
+  require-ssl: 'true'
+server:
+  port: '9000'
+  session:
+    timeout: 60m
+  tomcat:
+    protocol_header: x-forwarded-proto
+    remote_ip_header: x-forwarded-for
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        current_session_context_class: org.springframework.orm.hibernate4.SpringSessionContext
+        dialect: com.alpha.hibernate/SQLiteDialect.java
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
