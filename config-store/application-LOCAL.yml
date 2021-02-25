@@ -1,11 +1,13 @@
 cust:
     var:
+        batchAddr: http://localhost:9015/api/v1
         coachRegistrationAddr: http://localhost:9013/api/v1
         contactLookupAddr: http://localhost:9006/
         contentLookupAddr: http://localhost:9010/api/v1/
         designLookupAddr: http://localhost:9008/
         divisionAddr: http://localhost:9004/
         emailAddr: http://localhost:9999
+        leagueAddr: http://localhost:9009/
         orgAddr: http://localhost:9007/
         personAddr: http://localhost:9002/
         programAddr: http://localhost:9012/api/v1

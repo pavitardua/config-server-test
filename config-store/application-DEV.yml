@@ -7,6 +7,7 @@ cust:
         designLookupAddr: http://staticComboServer.coachspan.internal:9008/
         divisionAddr: http://divisionServer.coachspan.internal:9004/
         emailAddr: http://programandregistration.coachspan.internal:9999
+        leagueAddr: http://smallServiceComboServer.coachspan.internal:9009/
         orgAddr: http://smallServiceComboServer.coachspan.internal:9007/
         personAddr: http://personServer.coachspan.internal:9002/
         programAddr: http://programandregistration.coachspan.internal:9012/api/v1
