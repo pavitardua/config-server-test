@@ -1,0 +1,44 @@
+Configuration:
+  _status: WARN
+  _monitorInterval: 30
+  Properties:
+    Property:
+      _name: LOG_PATTERN
+      __text: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+      toString:
+  Appenders:
+    Console:
+      _name: console
+      _target: SYSTEM_OUT
+      _follow: true
+      PatternLayout:
+        _pattern: "${LOG_PATTERN}"
+    File:
+      - _name: applicationLog
+        _fileName: "application.log"
+        PatternLayout:
+          _pattern: "${LOG_PATTERN}"
+      - _name: auditLog
+        _fileName: "audit.log"
+        PatternLayout:
+          _pattern: "${LOG_PATTERN}"
+  Loggers:
+    Logger:
+      - _additivity: false
+        _level: info
+        _name: "application-log"
+        AppenderRef:
+          - _ref: applicationLog
+          - _ref: console
+      - _additivity: false
+        _level: info
+        _name: "audit-log"
+        AppenderRef:
+          - _ref: auditLog
+          - _ref: console
+    Root:
+      _level: INFO
+      AppenderRef:
+        - _ref: applicationLog
+        - _ref: console
+        - _ref: auditLog
