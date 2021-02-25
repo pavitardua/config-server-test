@@ -1,5 +1,5 @@
 automationTestingMode: true
-envName: LOCAL
+envName: DEV
 google:
     recaptcha:
         key:
