@@ -1,0 +1,31 @@
+logging:
+    file: logs/webApp/webApp.log
+    pattern:
+        console: '"%d{yyyy-MM-dd HH:mm:ss} - %msg%n"'
+        file: '"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"'
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+server:
+    compression:
+        enabled: true
+        mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+        min-response-size: 1024
+    port: 9000
+    servlet:
+        session:
+            timeout: 60m
+    session:
+        timeout: 60m
+spring:
+    mvc:
+        view:
+            prefix: /WEB-INF/jsp/
+            suffix: .jsp
+    resources:
+        cache:
+            cachecontrol:
+                max-age: 120
+                must-revalidate: true
