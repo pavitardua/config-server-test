@@ -7,6 +7,7 @@ cust:
         designLookupAddr: http://staticComboServer.staging.coachspan.internal:9008/
         divisionAddr: http://divisionServer.staging.coachspan.internal:9004/
         emailAddr: http://programandregistration.staging.coachspan.internal:9999
+        leagueAddr: http://smallServiceComboServer.staging.coachspan.internal:9009/
         orgAddr: http://smallServiceComboServer.staging.coachspan.internal:9007/
         personAddr: http://personServer.staging.coachspan.internal:9002/
         programAddr: http://programandregistration.staging.coachspan.internal:9012/api/v1
