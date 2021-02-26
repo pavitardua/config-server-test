@@ -8,7 +8,7 @@ google:
             threshold: 0.5
 maintenanceMode: false
 security:
-    require-ssl: true
+    require-ssl: false
 showContextBarDetailRow: true
 warning:
     before:
