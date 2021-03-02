@@ -1,0 +1,14 @@
+logging:
+    file: logs/seasonService/seasonService.log
+    pattern:
+        console: '"%d{yyyy-MM-dd HH:mm:ss} - %msg%n"'
+        file: '"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"'
+spring:
+    devtools:
+        livereload:
+            enabled: false
+    jpa:
+        hibernate:
+            ddl-auto: update
+            naming:
+                physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl

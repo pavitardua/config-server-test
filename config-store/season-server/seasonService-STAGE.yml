@@ -1,0 +1,11 @@
+envName: STAGE
+server:
+    port: 9005
+spring:
+    datasource:
+        driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        password: '{cipher}656ae3630a3081fcc421fd3ab4334cd9db14e2ca946b9c12c062098776bebf74'
+        url: '{cipher}c28e40680b540f206da119808b5328f1e8e5fe4297950d047f6207e2728d20f1ab4bdc53597e9bdd0266611aa540e120f3176070eca29f765add5e7a08d693874c94d2c3c0e487b74aa9a600b7681bb53d7d5cb7376647c82a40aa24d8998276'
+        username: '{cipher}1b668749b42325ecc06df410c39f321ab3e25e4bd56b1ada280319d195e8fb7b'
+    jpa:
+        show-sql: false
