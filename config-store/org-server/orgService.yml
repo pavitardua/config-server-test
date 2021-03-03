@@ -1,0 +1,21 @@
+logging:
+    file: logs/orgService/orgService.log
+    pattern:
+        console: '"%d{yyyy-MM-dd HH:mm:ss} - %msg%n"'
+        file: '"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"'
+spring:
+    devtools:
+        livereload:
+            enabled: false
+    jpa:
+        database: default
+        database-platform: org.hibernate.dialect.SQLServerDialect
+        hibernate:
+            ddl-auto: update
+            naming:
+                physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        properties:
+            hibernate:
+                jdbc:
+                    batch_size: 4
+                order_inserts: true
