@@ -1,0 +1,9 @@
+envName: PROD
+server:
+    port: 9004
+spring:
+    datasource:
+        driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        password: '{cipher}cab055dd47f75fc54403f91c0a555ae4defd283b2d3e2e8b432b196bcdb1ef5c'
+        url: '{cipher}a7d40e9d0583d9ea37a7debab2ae83d4b14192b0ea87d6cecc052d163462ea49e9bacbe75f81264bd1ee886fdfd072898e8772885c24887956816e0e0e0e6d4be32f7c03f4a6f955cbe0ad715c47a4f7c9fbadf8a1185499c4a21c5105e568d7df3a2078c8bd2f36448c4e59756be28b'
+        username: '{cipher}2ad2cdeb04bd758f0be0fa06801e59dd5fa43a2f00d946d6ea4f8f7847d88e8e'
