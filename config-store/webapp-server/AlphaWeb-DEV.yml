@@ -7,8 +7,8 @@ google:
             site: '{cipher}689f3ebfa69a30395d0f8b87776decca648a9f2541fcf7ec042cf96e8c4ad583cd3e7760c1ed6b0d459ae524f5ffb85ac08b3c1eb27dd0dc6b301072a0ab8ab5'
             threshold: 0.5
 maintenanceMode: false
-security:
-    require-ssl: true
+server:
+    forward-headers-strategy: native
 showContextBarDetailRow: true
 warning:
     before:
