@@ -8,7 +8,9 @@ google:
             threshold: 0.5
 maintenanceMode: false
 server:
-    forward-headers-strategy: native
+    forward-headers-strategy: NONE
+    tomcat:
+        redirect-context-root: false
 showContextBarDetailRow: true
 warning:
     before:
