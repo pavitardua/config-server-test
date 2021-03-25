@@ -11,6 +11,9 @@ server:
     forward-headers-strategy: NONE
     tomcat:
         redirect-context-root: false
+    remoteip:
+        remote-ip-header: X-Forwarded-For
+        protocol-header: X-Forwarded-Proto
 showContextBarDetailRow: true
 warning:
     before:
