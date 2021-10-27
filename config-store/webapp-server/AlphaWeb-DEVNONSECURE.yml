@@ -14,3 +14,10 @@ warning:
     before:
         timeout:
             minutes: 5
+server:
+    port: 9000
+    servlet:
+        session:
+            timeout: 10m
+    session:
+        timeout: 10m            
