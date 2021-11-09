@@ -1,0 +1,49 @@
+cust:
+    var:
+        batchAddr: http://programandregistration.staging.coachspan.internal:9015/api/v1
+        coachRegistrationAddr: http://programandregistration.staging.coachspan.internal:9013/api/v1
+        contactLookupAddr: http://staticComboServer.staging.coachspan.internal:9006/
+        contentLookupAddr: http://staticComboServer.staging.coachspan.internal:9010/api/v1/
+        designLookupAddr: http://staticComboServer.staging.coachspan.internal:9008/
+        divisionAddr: http://divisionServer.staging.coachspan.internal:9004/
+        emailAddr: http://programandregistration.staging.coachspan.internal:9999
+        leagueAddr: http://smallServiceComboServer.staging.coachspan.internal:9009/
+        orgAddr: http://smallServiceComboServer.staging.coachspan.internal:9007/
+        personAddr: http://personServer.staging.coachspan.internal:9002/
+        programAddr: http://programandregistration.staging.coachspan.internal:9012/api/v1
+        programAddrv2: http://programandregistration.staging.coachspan.internal:9012/api/v2
+        seasonAddr: http://seasonServer.staging.coachspan.internal:9005/
+        seasonAddrV2: http://seasonServer.staging.coachspan.internal:9005/api/v2
+        trainingAddr: http://trainingServer.staging.coachspan.internal:9011/
+division:
+    service:
+        endpoint: http://divisionServer.staging.coachspan.internal:9004
+email:
+    service:
+        endpoint: http://programandregistration.staging.coachspan.internal:9999
+los:
+    service:
+        endpoint: http://programandregistration.staging.coachspan.internal:9012/api/v1/los
+org:
+    service:
+        endpoint: http://smallServiceComboServer.staging.coachspan.internal:9007/
+person:
+    service:
+        endpoint: http://personServer.staging.coachspan.internal:9002
+program:
+    service:
+        endpoint: http://programandregistration.staging.coachspan.internal:9012
+registration:
+    service:
+        endpoint: http://programandregistration.staging.coachspan.internal:9013/api
+        v2:
+            endpoint: http://programandregistration.staging.coachspan.internal:9013/api/v2
+season:
+    service:
+        endpoint: http://seasonServer.staging.coachspan.internal:9005
+trainingSync:
+    service:
+        endpoint: http://trainingServer.staging.coachspan.internal:9011
+utility:
+    service:
+        endpoint: http://programandregistration.staging.coachspan.internal:9999/api/v1
