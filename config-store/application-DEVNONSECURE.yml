@@ -1,3 +1,5 @@
+log4j2:
+    formatMsgNoLookups: true
 cust:
     var:
         batchAddr: http://programandregistration.coachspan.internal:9015/api/v1
