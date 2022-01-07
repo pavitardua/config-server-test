@@ -18,4 +18,4 @@ server:
     port: 9000
     servlet:
         session:
-            timeout: 4m
+            timeout: 2m
