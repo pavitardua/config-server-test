@@ -13,9 +13,9 @@ showContextBarDetailRow: true
 warning:
     before:
         timeout:
-            minutes: 5
+            minutes: 4
 server:
     port: 9000
     servlet:
         session:
-            timeout: 10m
+            timeout: 5m
