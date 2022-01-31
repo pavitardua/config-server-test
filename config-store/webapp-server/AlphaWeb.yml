@@ -17,8 +17,6 @@ server:
     servlet:
         session:
             timeout: 60m
-    session:
-        timeout: 60m
 spring:
     mvc:
         view:
@@ -29,3 +27,5 @@ spring:
             cachecontrol:
                 max-age: 120
                 must-revalidate: true
+    main:
+        allow-bean-definition-overriding: true   
