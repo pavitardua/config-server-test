@@ -3,6 +3,9 @@
 #     pattern:
 #         console: '"%d{yyyy-MM-dd HH:mm:ss} - %msg%n"'
 #         file: '"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"'
+vendorIdentifierUserMap:
+    sterlingConnector: sterlingapi@test.com
+    jdpConnector: jdpapi@test.com
 management:
     endpoints:
         web:
@@ -27,5 +30,3 @@ spring:
             cachecontrol:
                 max-age: 120
                 must-revalidate: true
-    main:
-        allow-bean-definition-overriding: true   
