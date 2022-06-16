@@ -31,3 +31,6 @@ spring:
             cachecontrol:
                 max-age: 120
                 must-revalidate: true
+    servlet:
+        multipart.max-file-size: 10MB
+        multipart.max-request-size: 10MB
