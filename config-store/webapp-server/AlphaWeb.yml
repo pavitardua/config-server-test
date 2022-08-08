@@ -33,4 +33,4 @@ spring:
                 must-revalidate: true
     servlet:
         multipart.max-file-size: 10MB
-        multipart.max-request-size: 10MB
+        multipart.max-request-size: 100MB
