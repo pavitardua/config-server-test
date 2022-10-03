@@ -20,4 +20,5 @@ server:
         session:
             timeout: 60m
     session:
-        timeout: 60m            
+        timeout: 60m
+googleTag: G-KX1TPRGX72

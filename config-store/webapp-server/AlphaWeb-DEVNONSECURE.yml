@@ -19,3 +19,4 @@ server:
     servlet:
         session:
             timeout: 15m
+googleTag: G-RWFYSRRH7K
