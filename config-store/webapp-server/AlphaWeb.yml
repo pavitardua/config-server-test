@@ -14,7 +14,7 @@ management:
                 include: '*'
 server:
     compression:
-        enabled: true
+        enabled: false
         mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
         min-response-size: 1024
     port: 9000
