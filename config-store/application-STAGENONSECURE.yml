@@ -1,3 +1,6 @@
+sendCoachingMaterialEmails: false
+sendGameAdvisoryEmails: false
+sendPracticeAdvisoryEmails: false
 cust:
     var:
         batchAddr: http://programandregistration.staging.coachspan.internal:9015/api/v1

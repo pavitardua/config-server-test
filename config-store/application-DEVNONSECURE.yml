@@ -1,3 +1,6 @@
+sendCoachingMaterialEmails: false
+sendGameAdvisoryEmails: true
+sendPracticeAdvisoryEmails: false
 log4j2:
     formatMsgNoLookups: true
 cust:
