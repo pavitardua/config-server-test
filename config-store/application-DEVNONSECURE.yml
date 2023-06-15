@@ -3,6 +3,9 @@ sendGameAdvisoryEmails: true
 sendPracticeAdvisoryEmails: false
 log4j2:
     formatMsgNoLookups: true
+sendgrid:
+    webhook:
+        key:'{ciperh}MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERq0/IAYksWMRhpMAflV7wM/996cicsSpQzuZhFnF+IdEg8gW2dEnpitpN/P6lE6lE+u7LWTMamA0NAcD/SkeYw=='
 cust:
     var:
         batchAddr: http://programandregistration.coachspan.internal:9015/api/v1
