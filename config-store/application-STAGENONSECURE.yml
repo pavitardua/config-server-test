@@ -3,7 +3,7 @@ sendGameAdvisoryEmails: false
 sendPracticeAdvisoryEmails: false
 sendgrid:
     webhook:
-        key:'{ciperh}MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhyp1nXJc2XRzSL+d2bevtEfZCGao8kpQOPjc2oc9KPu8QLgIV40TcIYmlvU1AApbVb14WhsSdD9pYQgg6SR9qQ=='
+        key: '{ciperh}MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhyp1nXJc2XRzSL+d2bevtEfZCGao8kpQOPjc2oc9KPu8QLgIV40TcIYmlvU1AApbVb14WhsSdD9pYQgg6SR9qQ=='
 cust:
     var:
         batchAddr: http://programandregistration.staging.coachspan.internal:9015/api/v1
