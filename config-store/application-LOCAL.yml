@@ -3,7 +3,7 @@ sendGameAdvisoryEmails: true
 sendPracticeAdvisoryEmails: false
 sendgrid:
     webhook:
-        key: '{ciperh}MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERq0/IAYksWMRhpMAflV7wM/996cicsSpQzuZhFnF+IdEg8gW2dEnpitpN/P6lE6lE+u7LWTMamA0NAcD/SkeYw=='
+        key: '{ciperh}b7cba1ef379f580e0bbc1d0c6c5321fe5913a206de4995117f180e8373d2bd0bce00a9a5647151d07a399d857affd065d895abfadd4b4b079ad86a8b6a5d8165c9e2ccf7a258861da55d7f00f12adaca721b3dfe69ff319d2f98c57a394d55f6997e8b395221c89cdcac7fec3bce1b4ff01419b8baf300f89c332f8baa18cc4e4688f8fd1e7110634f3f364b37c22921'
 cust:
     var:
         batchAddr: http://localhost:9015/api/v1
