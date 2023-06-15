@@ -3,7 +3,7 @@ sendGameAdvisoryEmails: false
 sendPracticeAdvisoryEmails: false
 sendgrid:
     webhook:
-        key: '{ciperh}fc850290055a35689362b28e45d492ebf9dc065ee68ef12c717db9f87a729b5663759b3c4b1bfa8609e2ba6b8c16d42007cce13db58d5b8431282abff46745713638c01ee2f0979166dce1585c5d0866ce7b180ca3137aeca0b6a042c5bd05dbfcba32598d83e7f619fccca71986982b6f2499fca4e38d983310b9a669d8bf48bb235cb7e38980ba84da96976d3912cd'
+        key: '{cipher}fc850290055a35689362b28e45d492ebf9dc065ee68ef12c717db9f87a729b5663759b3c4b1bfa8609e2ba6b8c16d42007cce13db58d5b8431282abff46745713638c01ee2f0979166dce1585c5d0866ce7b180ca3137aeca0b6a042c5bd05dbfcba32598d83e7f619fccca71986982b6f2499fca4e38d983310b9a669d8bf48bb235cb7e38980ba84da96976d3912cd'
 cust:
     var:
         batchAddr: http://programandregistration.production.coachspan.internal:9015/api/v1
