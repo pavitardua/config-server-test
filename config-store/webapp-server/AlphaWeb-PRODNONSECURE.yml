@@ -1,0 +1,24 @@
+automationTestingMode: true
+envName: DEVNONSECURE
+google:
+    recaptcha:
+        key:
+            secret: '{cipher}f7e124e123b39dd57019dbfa587083566a25d8d0315e8495b86ad5ea3c10b190c31a224593fedf99acef0f31f14d824ae9907fc79fc9cae3ee6d10276926dfb6'
+            site: '{cipher}689f3ebfa69a30395d0f8b87776decca648a9f2541fcf7ec042cf96e8c4ad583cd3e7760c1ed6b0d459ae524f5ffb85ac08b3c1eb27dd0dc6b301072a0ab8ab5'
+            threshold: 0.5
+maintenanceMode: false
+security:
+    require-ssl: false
+showContextBarDetailRow: true
+warning:
+    before:
+        timeout:
+            minutes: 5
+server:
+    port: 9000
+    servlet:
+        session:
+            timeout: 60m
+    session:
+        timeout: 60m
+googleTag: G-KX1TPRGX72
