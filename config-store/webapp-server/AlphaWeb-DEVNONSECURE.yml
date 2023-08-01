@@ -20,3 +20,4 @@ server:
         session:
             timeout: 15m
 googleTag: G-RWFYSRRH7K
+loginBeforeNDays: 3

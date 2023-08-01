@@ -15,3 +15,4 @@ warning:
         timeout:
             minutes: 5
 googleTag: G-KX1TPRGX72
+loginBeforeNDays: 180

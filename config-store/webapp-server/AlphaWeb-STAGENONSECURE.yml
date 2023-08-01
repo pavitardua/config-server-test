@@ -22,3 +22,4 @@ server:
     session:
         timeout: 60m
 googleTag: G-KX1TPRGX72
+loginBeforeNDays: 180
