@@ -1,5 +1,5 @@
-sendCoachingMaterialEmails: false
-sendGameAdvisoryEmails: true
+sendCoachingMaterialEmails: true
+sendGameAdvisoryEmails: false
 sendPracticeAdvisoryEmails: false
 sendgrid:
     webhook:
