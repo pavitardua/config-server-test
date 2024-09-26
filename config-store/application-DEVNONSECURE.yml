@@ -1,5 +1,5 @@
 sendCoachingMaterialEmails: true
-sendGameAdvisoryEmails: false
+sendGameAdvisoryEmails: true
 sendPracticeAdvisoryEmails: false
 log4j2:
     formatMsgNoLookups: true
