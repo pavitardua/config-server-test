@@ -16,3 +16,4 @@ warning:
             minutes: 5
 googleTag: G-KX1TPRGX72
 loginBeforeNDays: 180
+programsWithVideoCompletionRestriction: 2207,2304
