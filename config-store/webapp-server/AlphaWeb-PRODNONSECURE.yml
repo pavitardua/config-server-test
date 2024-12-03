@@ -23,3 +23,4 @@ server:
         timeout: 60m
 googleTag: G-KX1TPRGX72
 loginBeforeNDays: 180
+programsWithVideoCompletionRestriction: 371,1637,1677,1751,1658,1671
