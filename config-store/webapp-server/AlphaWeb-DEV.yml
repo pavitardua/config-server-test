@@ -16,6 +16,8 @@ server:
     remoteip:
         remote-ip-header: X-Forwarded-For
         protocol-header: X-Forwarded-Proto
+    http2:
+      enabled: false
 showContextBarDetailRow: true
 warning:
     before:
