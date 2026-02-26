@@ -60,4 +60,10 @@ ssl:
     truststore:
         password: '{cipher}705050f92561f36475cf3e37656af8fe75a29b43806fc05376bd74d5caf0ba337c14c0488d988945bbeb77967f829b0a'
 
+management:
+    endpoints:
+        web:
+            exposure:
+                include: refresh,health
+
 
