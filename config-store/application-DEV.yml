@@ -67,4 +67,12 @@ management:
             exposure:
                 include: refresh,health
 
+lms:
+    baseUrl: https://dev-lms.coachspan.com/webservice/rest/server.php
+    webServiceToken: '{cipher}bfdc824a352c6f22c73236d037c60b9e25d699b704569bee001f1fe96e213c3e02200ae8ca486218596f8b441cf365a780cc69eb13255a7d12b8624d42c6682a'
+    loginUrl: https://dev-lms.coachspan.com//auth/sso/login.php
+    webhookSecret: '{cipher}87aeb3e28a1a0d9d80af7440a9fc6534dd7c2bb88eeaaffdc8048c9772e20b70bbec3bd09bbd14c57675b87bbd768260'
+    jwtSecret: '{cipher}5120778f0608c69a51009e4243fe1f826339336133ed7a3cd85d61d4905070f436cdadb48dcdadfc122984eab46ddd1d221713ee65cf4a29515cf7c344544ff0'
+
+
 
