@@ -55,3 +55,7 @@ trainingSync:
 utility:
     service:
         endpoint: http://programandregistration.coachspan.internal:9999/api/v1
+
+
+lms:
+    webhookSecret: '{cipher}87aeb3e28a1a0d9d80af7440a9fc6534dd7c2bb88eeaaffdc8048c9772e20b70bbec3bd09bbd14c57675b87bbd768260'
