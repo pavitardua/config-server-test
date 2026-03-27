@@ -68,6 +68,7 @@ management:
                 include: refresh,health
 
 lms:
+    token:'{cipher}21d17da52eb32b83600190e2e698e648c766698800fa0451f80a48b46ff77dbbcdbbeaf4feb94117949178a8ed4949b2bab2cafe56a62fe46c8547c1ceb49739'
     baseUrl: https://dev-lms.coachspan.com/webservice/rest/server.php
     webServiceToken: '{cipher}bfdc824a352c6f22c73236d037c60b9e25d699b704569bee001f1fe96e213c3e02200ae8ca486218596f8b441cf365a780cc69eb13255a7d12b8624d42c6682a'
     loginUrl: https://dev-lms.coachspan.com//auth/sso/login.php
