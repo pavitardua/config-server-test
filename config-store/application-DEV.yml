@@ -4,6 +4,8 @@ sendPracticeAdvisoryEmails: false
 sendgrid:
     webhook:
         key: '{cipher}b7cba1ef379f580e0bbc1d0c6c5321fe5913a206de4995117f180e8373d2bd0bce00a9a5647151d07a399d857affd065d895abfadd4b4b079ad86a8b6a5d8165c9e2ccf7a258861da55d7f00f12adaca721b3dfe69ff319d2f98c57a394d55f6997e8b395221c89cdcac7fec3bce1b4ff01419b8baf300f89c332f8baa18cc4e4688f8fd1e7110634f3f364b37c22921'
+    regSyncTemplateId: 'd-08c6873e76bf4fa489037274a28f4457'
+    documentShreddingTemplateId: 'd-8b0c944edd5548d9ada772935495535f'
 cust:
     var:
         batchAddr: http://programandregistration.coachspan.internal:9015/api/v1
@@ -75,6 +77,8 @@ lms:
     jwtSecret: '{cipher}5120778f0608c69a51009e4243fe1f826339336133ed7a3cd85d61d4905070f436cdadb48dcdadfc122984eab46ddd1d221713ee65cf4a29515cf7c344544ff0'
     token: '{cipher}a0042028da94c3c2bc882bb8a0b051a7dd24ccbcdaf5bc3fff7c9b3186e3ac0c7786fb7e15391418c5ac6549d6e7a86da74833f885eef6f93a78896784dfe57e'
     default-password: '{cipher}b8be51a357013bb6a086886ff313b4c950aba3f244b178bc1af1daabed2863b00b68c23b4d6e151852319c4c7eb21b22'
+
+
 
 
 
