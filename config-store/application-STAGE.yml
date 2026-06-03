@@ -6,7 +6,7 @@ sendgrid:
         key: '{cipher}db0d0b56f1625d6a1a9f04d781997ec72ad667ac2519a29f668880cffc13e12752e4c9710feea5ed42d5e90adf496da25a113fcfc55d000a616c96d95aff06b47aa72078f6f9adbc07a9d5d07cec36480ea2f7289036e3d6c95bc04fc6937228134f35499dcb122725b262fa8bca0b3979d20459c7d27a1d46c03c50be26988dba857539ccac84a2b2026101ba9c33ad'
     regSyncTemplateId: 'd-08c6873e76bf4fa489037274a28f4457'
     documentShreddingTemplateId: 'd-8b0c944edd5548d9ada772935495535f'
-    certificationProcessTemplateId: 'd-ea82ec9da32541f2a2fc9c59a5c521d9'
+    certificationStatusSyncTemplateId: 'd-ea82ec9da32541f2a2fc9c59a5c521d9'
 cust:
     var:
         batchAddr: http://programandregistration.staging.coachspan.internal:9015/api/v1
