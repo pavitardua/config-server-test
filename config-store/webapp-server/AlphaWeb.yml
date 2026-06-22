@@ -26,8 +26,6 @@ spring:
         view:
             prefix: /WEB-INF/jsp/
             suffix: .jsp
-        async:
-            request-timeout: 60000
     resources:
         cache:
             cachecontrol:
