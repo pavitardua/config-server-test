@@ -1,5 +1,11 @@
 automationTestingMode: true
 envName: DEV
+# COAC-11753: DEV has more data than other envs, causing OrgService org-list query to take ~5 min.
+# Raise async timeout for DEV only. Remove once OrgService SQL fix is verified in DEV.
+spring:
+  mvc:
+    async:
+      request-timeout: 300000
 google:
     recaptcha:
         key:
