@@ -36,3 +36,10 @@ spring:
         multipart.max-request-size: 100MB
 googleTag:
 loginBeforeNDays: 180
+
+http:
+    client:
+        connect-timeout: 5000
+        read-timeout: 30000
+        max-connections: 100
+        max-connections-per-route: 20
