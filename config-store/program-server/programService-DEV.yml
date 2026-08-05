@@ -14,7 +14,7 @@ spring:
         show-sql: false
     flyway:
         baselineOnMigrate: true
-        baselineVersion: '1.8'
+        baselineVersion: '1.7'
         schemas: dbo
         sqlMigrationPrefix: V
         password: '{cipher}514bffa76e2969aea5a9566b18ee2edd6dc0048bdb4c83a22a875dbcf82a3f91652df0cdbb1b0bf89450fbe7b22573ee'
