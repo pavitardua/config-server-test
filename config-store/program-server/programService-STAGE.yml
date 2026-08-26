@@ -21,7 +21,8 @@ spring:
         baselineVersion: '1.7'
         schemas: dbo
         sqlMigrationPrefix: V
-        password: '{cipher}514bffa76e2969aea5a9566b18ee2edd6dc0048bdb4c83a22a875dbcf82a3f91652df0cdbb1b0bf89450fbe7b22573ee'
-        url: '{cipher}5cf550e2f3c6fecadf3d0fbcb3503ba5f350e4948b183f9d5b2338071ffd9670f80050c38d97b69a029db62de9e567bd1ab5c7d8194a00ddc2619a357e5ad20a2825115ae4c0403332927c18b2c479b0ed531bb4dae9d3697d60a5c655c6ef48'
-        user: '{cipher}8c5cbca6395261d99a6a82fbd148eee00137f90a34a666aae65cda3f1f73fd1b'
+        password: '{cipher}656ae3630a3081fcc421fd3ab4334cd9db14e2ca946b9c12c062098776bebf74'
+        url: '{cipher}82e68cc191d7651f857d7ddb374bb5ce42920c561a607cec46e1a4fab5bbe5f72d06b2cc462dc4645fc4886669f17fa5138dbf418429bcc40afd4bfa213e2c613143aad8f4bf606631d8a0aad7be3ab1c9c11083b9a0a73fae8f749401bb1f11d84ec31314'
+        user: '{cipher}1b668749b42325ecc06df410c39f321ab3e25e4bd56b1ada280319d195e8fb7b'
+
 
