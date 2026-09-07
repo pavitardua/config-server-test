@@ -70,6 +70,8 @@ management:
         web:
             exposure:
                 include: refresh,health
+        health:
+            show-details: always
 
 lms:
     baseUrl: https://dev-lms.coachspan.com/webservice/rest/server.php
