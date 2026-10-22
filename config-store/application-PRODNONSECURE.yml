@@ -53,3 +53,14 @@ trainingSync:
 utility:
     service:
         endpoint: http://programandregistration.production.coachspan.internal:9999/api/v1
+
+
+
+lms:
+    baseUrl: https://lms.coachspan.com/webservice/rest/server.php
+    webServiceToken: '{cipher}Not Getting Used'
+    loginUrl: https://lms.coachspan.com/auth/sso/login.php
+    webhookSecret: '{cipher}e394ff2d2832f84df5cac091d5139bd42f1631e301e1bad5bb20d34445a6b4e8a88a7fc4827a6ca4bb2fd2f907b41b711632a3a12823fb0e51b0af3ad7930942'
+    jwtSecret: '{cipher}722109204a169dd72a6a3375fcb54993aad43949c8f87738f18ea51cb569721a56b86c740defb122d3d397d218e41ceae29240888b91f77e1ce04df1f00c7fa7'
+    token: '{cipher}7b44b4cb9d602edd4094a0f5f93ef3d5762e568e43b0710309f37ed885678831cdde4e8043eef3c6c0f6058ec71e4a33348236e71b4128a1005cca18886632de'
+    default-password: '{cipher}b8be51a357013bb6a086886ff313b4c950aba3f244b178bc1af1daabed2863b00b68c23b4d6e151852319c4c7eb21b22'
